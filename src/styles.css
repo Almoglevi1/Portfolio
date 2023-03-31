@@ -63,6 +63,18 @@ h2 {
   margin: 10px;
 }
 
+.aboutMeTitle{
+  font-size: xx-large;
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+.aboutMeText{
+  color: #a4a3a3;
+  font-size: large;
+  font-weight: bold;
+}
+
 .qualification {
   padding: 50px;
 }
@@ -385,6 +397,11 @@ input,textarea{
   font-size: 2rem;
 }
 
+.skillsTitle{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
 .sendBtn{
   max-width: 14rem;
   font-size: 1.3rem;
@@ -484,6 +501,9 @@ input,textarea{
     width: 400px;
     height: 300px;
   }
+  .aboutMeTitle{
+    margin-top: 10px;
+  }
   #skills {
     padding: 0px;
   }
@@ -510,6 +530,30 @@ input,textarea{
     padding-bottom: 300px;
   }
 }
+
+@media only screen and (min-width: 1023px){
+  .skillsTitle{
+    padding-right: 70px;
+  }
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  .skillsTitle{
+    padding-right: 40px;
+  }
+  }
+
+@media only screen and (min-width: 426px) and (max-width: 767px){
+.skillsTitle{
+  padding-right: 40px;
+}
+}
+
+@media only screen and (min-width: 391px) and (max-width: 426px){
+  .skillsTitle{
+    padding-right: 20px;
+  }
+  }
 
 @media only screen and (max-width: 426px){
   .project-image{

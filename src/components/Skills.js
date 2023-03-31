@@ -19,7 +19,7 @@ const Skills = () => {
   return (
       <section id="skills">
       <Container className="my-5">
-        <h3 className="sectionHeader">Skills</h3>
+        <h3 className="skillsTitle">Skills</h3>
         <br/>
         <br/>
         <Table  borderless className="Skills">
