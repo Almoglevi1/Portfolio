@@ -186,6 +186,11 @@ section{
   width: 100px;
 }
 
+nav{
+  background-color: hsl(250, 28%, 12%);
+  opacity: 0.9;
+}
+
 .nav-brand-big {
   font-size: 1.8rem;
   transition: font-size 0.5s;
