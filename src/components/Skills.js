@@ -7,6 +7,7 @@ import cssIcon from '../images/cssIcon.png';
 import cppIcon from '../images/cppIcon.png';
 import cIcon from '../images/cIcon.png';
 import pythonIcon from '../images/pythonIcon.png';
+import javaIcon from '../images/javaIcon.png';
 import gitIcon from '../images/gitIcon.png';
 import gitHubIcon from '../images/gitHubIcon.png';
 import nodeJSIcon from '../images/nodeJSIcon.png';
@@ -24,23 +25,29 @@ const Skills = () => {
         <br/>
         <Table  borderless className="Skills">
           <tbody>
+
           {/*first row*/}
           <tr>
             <td className="text-center">
-              <Image src={pythonIcon} alt="Python" className="skillsImageSize"/>
-              <p>Python</p>
+              <Image src={javaIcon} alt="Java" className="skillsImageSize"/>
+              <p>Java</p>
             </td>
             <td className="text-center">
-              <Image src={cIcon} alt="C" className="skillsImageSize"/>
-              <p>C</p>
+              <Image src={pythonIcon} alt="Python" className="skillsImageSize"/>
+              <p>Python</p>
             </td>
             <td className="text-center">
               <Image src={cppIcon} alt="C++" className="skillsImageSize"/>
               <p>C++</p>
             </td>
           </tr>
+
           {/*second row*/}
           <tr>
+            <td className="text-center">
+              <Image src={cIcon} alt="C" className="skillsImageSize"/>
+              <p>C</p>
+            </td>
             <td className="text-center">
               <Image src={htmlIcon} alt="HTML" className="skillsImageSize"/>
               <p>HTML</p>
@@ -49,13 +56,14 @@ const Skills = () => {
               <Image src={cssIcon} alt="CSS" className="skillsImageSize"/>
               <p>CSS</p>
             </td>
+          </tr>
+
+          {/*third row*/}
+          <tr>
             <td className="text-center">
               <Image src={jsIcon} alt="JavaScript" className="skillsImageSize"/>
               <p>JavaScript</p>
             </td>
-          </tr>
-          {/*third row*/}
-          <tr>
             <td className="text-center">
               <Image src={jqueryIcon} alt="jQuery" className="skillsImageSize"/>
               <p>jQuery</p>
@@ -64,13 +72,14 @@ const Skills = () => {
               <Image src={bootstrapIcon} alt="Bootstrap" className="bootstrapImageSize"/>
               <p>Bootstrap</p>
             </td>
-            <td className="text-center">
-              <Image src={reactIcon} alt="React" className="skillsImageSize"/>
-              <p>React</p>
-            </td>
             </tr>
+
             {/*fourth row*/}
             <tr>
+              <td className="text-center">
+                <Image src={reactIcon} alt="React" className="skillsImageSize"/>
+                <p>React</p>
+              </td>
             <td className="text-center">
               <Image src={nodeJSIcon} alt="NodeJs" className="skillsImageSize"/>
               <p>NodeJs</p>
@@ -79,13 +88,14 @@ const Skills = () => {
               <Image src={mongoDBIcon} alt="MongoDB" className="skillsImageSize"/>
               <p>MongoDB</p>
             </td>
+          </tr>
+
+          {/*fifth row*/}
+          <tr>
             <td className="text-center">
               <Image src={mySQLIcon} alt="MySQL" className="skillsImageSize"/>
               <p>MySQL</p>
             </td>
-          </tr>
-          {/*fifth row*/}
-          <tr>
             <td className="text-center">
               <Image src={gitIcon} alt="Git" className="skillsImageSize"/>
               <p>Git</p>
