@@ -7,6 +7,7 @@ import PopularMoviePredictionImage from "../images/PopularMoviePredictionImage.p
 import PaintImage from "../images/PaintImage.png";
 import keeperAppImage from "../images/keeperAppImage.png";
 import simonGameImage from "../images/simonGameImage.png";
+import quizzyImage from "../images/quizzyImage.png";
 import IotSmartLockImage from "../images/IotSmartLockImage.png";
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -27,34 +28,41 @@ const cardItems = [
     },
     {
         id: 3,
+        headline: 'Quizzy',
+        photo: quizzyImage,
+        description: 'Quizzy Library in Java while using classic design patterns: Singleton, Factory, Prototype, Builder and Data Access Object.',
+        url: 'https://github.com/Almoglevi1/Quizzy'
+    },
+    {
+        id: 4,
         headline: 'Popular Movies Prediction',
         photo: PopularMoviePredictionImage,
         description: 'Data science - machine learning project in python.',
         url: 'https://github.com/Almoglevi1/Popular-Movies-Prediction'
     },
     {
-        id: 4,
+        id: 5,
         headline: 'Paint',
         photo: PaintImage,
         description: 'Paint application was developed using C++ and MFC framework.',
         url: 'https://github.com/Almoglevi1/Paint'
     },
     {
-        id: 5,
+        id: 6,
         headline: 'Keeper App',
         photo: keeperAppImage,
         description: 'This app using React and Material-UI. Store ideas and notes in a structured way in the form of React components. Create a number of notes and can delete them too.',
         url: 'https://almoglevi1.github.io/Keeper-App/'
     },
     {
-        id: 6,
+        id: 7,
         headline: 'Simon Game',
         photo: simonGameImage,
         description: 'This game was developed using HTML, CSS and JavaScript.',
         url: 'https://almoglevi1.github.io/Simon-Game/'
     },
     {
-        id: 7,
+        id: 8,
         headline: 'IOT Smart-Lock',
         photo: IotSmartLockImage,
         description: 'IOT Smart Lock application developed using python.',
