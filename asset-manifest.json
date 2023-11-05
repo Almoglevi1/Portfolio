@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4e65d516.css",
-    "main.js": "/Portfolio/static/js/main.8881bafc.js",
+    "main.css": "/Portfolio/static/css/main.57eef031.css",
+    "main.js": "/Portfolio/static/js/main.f25077bf.js",
     "static/media/PopularMoviePredictionImage.png": "/Portfolio/static/media/PopularMoviePredictionImage.cc5db64830c559c3f6fa.png",
     "static/media/ReactWeatherAppImage.png": "/Portfolio/static/media/ReactWeatherAppImage.c16215d7ec1643f23da3.png",
     "static/media/almogProfilePic.png": "/Portfolio/static/media/almogProfilePic.7baa0f734532811d9a7c.png",
@@ -15,11 +15,11 @@
     "static/media/bootstrapIcon.png": "/Portfolio/static/media/bootstrapIcon.ff4ba441ec3324145fde.png",
     "static/media/simonGameImage.png": "/Portfolio/static/media/simonGameImage.7d82ffae3d40aadc68f5.png",
     "index.html": "/Portfolio/index.html",
-    "main.4e65d516.css.map": "/Portfolio/static/css/main.4e65d516.css.map",
-    "main.8881bafc.js.map": "/Portfolio/static/js/main.8881bafc.js.map"
+    "main.57eef031.css.map": "/Portfolio/static/css/main.57eef031.css.map",
+    "main.f25077bf.js.map": "/Portfolio/static/js/main.f25077bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e65d516.css",
-    "static/js/main.8881bafc.js"
+    "static/css/main.57eef031.css",
+    "static/js/main.f25077bf.js"
   ]
 }
