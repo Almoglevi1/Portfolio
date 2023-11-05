@@ -19,8 +19,7 @@ const AboutMe = () => {
             <br/>
             <br/>
             <p className="aboutMeText">I am a passionate coder with an eye for detail and a focus to produce quality work.</p>
-            <p className="aboutMeText">3<sup>rd</sup> year computer science student at HIT, looking for a Software Developer role.
-            </p>
+            <p className="aboutMeText">B.Sc. in Computer Science at Holon Institute of Technology (H.I.T).</p>
           </div>
           <br/>
           <Button href="#contact-me" variant="primary" className="aboutMeBtn">
