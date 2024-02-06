@@ -1,9 +1,10 @@
-
 * {
   box-sizing: border-box;
   font-family: "Poppins";
 }
-html, body {
+
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -24,7 +25,7 @@ html, body {
   color: hsl(250, 28%, 12%);
 }
 
-.darkText{
+.darkText {
   color: #333;
 }
 
@@ -34,7 +35,7 @@ body {
   color: white;
 }
 
-td p{
+td p {
   color: white;
 }
 
@@ -63,13 +64,13 @@ h2 {
   margin: 10px;
 }
 
-.aboutMeTitle{
+.aboutMeTitle {
   font-size: xx-large;
   font-weight: bold;
   margin-top: -20px;
 }
 
-.aboutMeText{
+.aboutMeText {
   color: #a4a3a3;
   font-size: large;
   font-weight: bold;
@@ -116,10 +117,10 @@ button[type="submit"] {
   font-weight: normal;
 }
 
-.mediaIcons{
+.mediaIcons {
   padding: 7px;
   font-size: 30px;
-  color:hsl(250, 69%, 61%);
+  color: hsl(250, 69%, 61%);
 }
 
 button[type="submit"]:hover {
@@ -136,26 +137,30 @@ button[type="submit"]:hover {
   font-family: "Poppins";
 }
 
-footer a{
+footer a {
   margin: 7px;
 }
 
-.list-group-item{
-  color:black;
+.list-group-item {
+  color: black;
 }
 
-#skills,#Characteristics,#AboutMe,#contact-me{
+#skills,
+#Characteristics,
+#AboutMe,
+#contact-me {
   scroll-margin-top: -40px;
 }
-#Projects{
+
+#Projects {
   scroll-margin-top: -10px;
 }
 
-i:hover{
+i:hover {
   cursor: pointer;
 }
 
-.contactMeBtn{
+.contactMeBtn {
   display: inline-grid;
   grid-template-columns: auto 1fr;
   justify-content: center;
@@ -164,7 +169,7 @@ i:hover{
   padding-top: 15px;
 }
 
-.aboutMeBtn{
+.aboutMeBtn {
   margin: 10px;
   display: inline-grid;
   grid-template-columns: auto 1fr;
@@ -173,21 +178,22 @@ i:hover{
   font-size: 1.1rem;
 }
 
-section{
+section {
   padding: 35px;
 }
 
-.collapse-small{
+.collapse-small {
   width: 50%;
   margin: 0 auto;
 }
 
-.carousel-control-next, .carousel-control-prev{
+.carousel-control-next,
+.carousel-control-prev {
   font-size: 0;
   width: 100px;
 }
 
-nav{
+nav {
   background-color: hsl(250, 28%, 12%);
   opacity: 0.9;
 }
@@ -195,13 +201,13 @@ nav{
 .nav-brand-big {
   font-size: 1.8rem;
   transition: font-size 0.5s;
-  letter-spacing:5px;
+  letter-spacing: 5px;
 }
 
 .nav-brand-small {
   font-size: 1.5rem;
   transition: font-size 0.5s;
-  letter-spacing:5px;
+  letter-spacing: 5px;
 }
 
 .navbar-brand:hover {
@@ -210,7 +216,7 @@ nav{
   -webkit-text-fill-color: transparent;
 }
 
-#Introduction{
+#Introduction {
   text-align: center;
   color: white;
   background-image: url("images/openingPic.jpg");
@@ -245,7 +251,7 @@ nav{
   text-transform: uppercase;
 }
 
-.IntroBtn{
+.IntroBtn {
   font-size: 25px;
   padding: 10px 20px;
   font-weight: bold;
@@ -273,11 +279,13 @@ nav{
 .carousel-indicators {
   display: none;
 }
-.projectDetails{
+
+.projectDetails {
   display: inline-grid;
   text-align: center;
   align-items: center;
 }
+
 .card h2,
 .card p {
   line-height: 1.5;
@@ -286,12 +294,12 @@ nav{
   margin: 0;
 }
 
-.card h2{
+.card h2 {
   font-size: 2rem;
   font-weight: bolder;
 }
 
-.carouselProjectsCaption{
+.carouselProjectsCaption {
   padding-top: 60px;
 }
 
@@ -314,76 +322,77 @@ nav{
   visibility: hidden;
 }
 
-.project-image{
+.project-image {
   width: 700px;
   height: 500px;
   object-fit: contain;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-.circleIndex{
+.circleIndex {
   z-index: -1;
   background-color: hsl(250, 69%, 61%);
   border-radius: 100px;
   width: 150px;
 }
 
-.iconIndex{
+.iconIndex {
   z-index: 0;
 }
 
-.spanIcon{
+.spanIcon {
   padding-left: 15px;
 }
 
-a svg{
+a svg {
   color: #fff;
 }
 
-a svg:hover{
+a svg:hover {
   color: hsl(250, 79%, 57%);
 }
 
-.container.contact__container{
-  width:58%;
+.container.contact__container {
+  width: 58%;
   display: inline-block;
   grid-template-columns: 30% 58%;
   gap: 12%;
 
 }
 
-.contact__options{
+.contact__options {
   display: flex;
   flex-direction: column;
-  gap:1.5rem;
+  gap: 1.5rem;
 }
 
-.contact__options h5{
+.contact__options h5 {
   font-size: 0.8rem;
   color: #a4a3a3;
 }
 
-.contact__option-icon{
+.contact__option-icon {
   font-size: 3rem;
-  color:hsl(250, 69%, 61%);
+  color: hsl(250, 69%, 61%);
 }
 
-.contact__option a{
+.contact__option a {
   margin-top: 0.7rem;
   display: inline-block;
   font-size: 0.8rem;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
 }
 
-input,textarea{
+input,
+textarea {
   width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
@@ -394,54 +403,63 @@ input,textarea{
   font-size: 0.9rem;
 }
 
-.getInTouchHeader{
+.getInTouchHeader {
   color: #a4a3a3;
 }
 
-.sectionHeader{
+.sectionHeader {
   font-weight: bold;
   font-size: 2rem;
 }
 
-.skillsTitle{
+.skillsTitle {
   font-weight: bold;
   font-size: 2rem;
   padding: 1rem;
+  padding-left: 70px;
 }
 
-.sendBtn{
+.sendBtn {
   max-width: 14rem;
   font-size: 1.3rem;
 }
 
-.send-icon{
-  margin-left:7px;
+.send-icon {
+  margin-left: 7px;
   font-size: 1.4rem;
 }
 
-.skillsImageSize{
-  width: 75px;
+.skillsImageSize {
   transition: transform 0.2s ease-in-out;
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  padding: 5px;
+  border-radius: 25%;
+  cursor: pointer;
 }
 
-.bootstrapImageSize{
+.skillsImageSize:hover {
+  transform: scale(1.3);
+  background-color: hsla(0, 0%, 100%, 0.1);
+  border-radius: 15%;
+
+}
+
+.bootstrapImageSize {
   width: 92px;
   transition: transform 0.2s ease-in-out;
 }
 
-.skillsImageSize:hover{
-  transform: scale(1.3);
-}
-
-.bootstrapImageSize:hover{
+.bootstrapImageSize:hover {
   transform: scale(1.2);
 }
 
 .success-message {
-  background-color:#ffffff;
+  background-color: #ffffff;
   border: 3px solid hsl(250, 69%, 90%);
   border-radius: 14px;
-  color:hsl(250, 69%, 61%);
+  color: hsl(250, 69%, 61%);
   font-size: 1.2rem;
   margin-top: 10px;
   padding: 10px;
@@ -462,217 +480,255 @@ input,textarea{
 /*Media*/
 
 @media only screen and (min-width: 1441px) {
-  .card{
+  .card {
     width: 84%;
   }
 
 }
 
 @media only screen and (max-width: 1440px) {
-  .card{
+  .card {
     width: 94%;
   }
 
 }
 
 @media screen and (max-width: 1024px) {
-  .container.contact__container{
+  .container.contact__container {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  .card{
+
+  .card {
     width: 85%;
     height: 400px;
   }
-  .project-image{
+
+  .project-image {
     width: 400px;
     height: 300px;
   }
+
   .card h2,
   .card p {
     font-weight: lighter;
     font-size: medium;
   }
-  .card h2{
+
+  .card h2 {
     font-size: large;
     font-weight: bolder;
   }
+
   .card-carousel {
     padding-bottom: 300px;
   }
 }
 
-@media only screen and (max-width: 820px){
+@media only screen and (max-width: 820px) {
+
   /* Styles for tablets */
-  .project-image{
+  .project-image {
     width: 400px;
     height: 300px;
   }
-  .aboutMeTitle{
+
+  .aboutMeTitle {
     margin-top: 10px;
   }
+
   #skills {
     padding: 0px;
   }
-  .introductionImage{
+
+  .introductionImage {
     margin: 0px;
   }
-  .carousel-control-next, .carousel-control-prev{
+
+  .carousel-control-next,
+  .carousel-control-prev {
     width: 45px;
   }
+
   .card {
     width: 100%;
-    height:400px;
+    height: 400px;
   }
+
   .card h2,
   .card p {
     font-weight: lighter;
     font-size: smaller;
   }
-  .card h2{
+
+  .card h2 {
     font-size: medium;
     font-weight: bolder;
   }
+
   .card-carousel {
     padding-bottom: 300px;
   }
 }
 
-@media only screen and (min-width: 1023px){
-  .skillsTitle{
+@media only screen and (min-width: 1023px) {
+  .skillsTitle {
     padding-right: 10px;
   }
-  }
-
-@media only screen and (min-width: 768px) and (max-width: 1024px){
-  .skillsTitle{
-    padding-right: 20px;
-  }
-  }
-
-@media only screen and (min-width: 426px) and (max-width: 767px){
-.skillsTitle{
-  padding-right: 40px;
-}
 }
 
-@media only screen and (min-width: 391px) and (max-width: 426px){
-  .skillsTitle{
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .skillsTitle {
     padding-right: 20px;
   }
-  }
+}
 
-@media only screen and (max-width: 426px){
-  .project-image{
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+  .skillsTitle {
+    padding-right: 40px;
+  }
+}
+
+@media only screen and (min-width: 391px) and (max-width: 426px) {
+  .skillsTitle {
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .project-image {
     width: 300px;
     height: 300px;
     padding-bottom: 50px;
   }
-  .carousel-control-next, .carousel-control-prev{
+
+  .carousel-control-next,
+  .carousel-control-prev {
     width: 30px;
   }
+
   .card {
     width: 100%;
-    height:530px;
+    height: 530px;
   }
+
   .card h2,
   .card p {
     font-weight: lighter;
     font-size: smaller;
     margin: 10px;
   }
-  .viewProjectBtn{
+
+  .viewProjectBtn {
     margin: 20px;
   }
-  .card h2{
+
+  .card h2 {
     font-weight: bolder;
     font-size: large;
   }
-  #skills{
+
+  #skills {
     scroll-margin-top: 90px;
   }
-  #Projects{
+
+  #Projects {
     scroll-margin-top: 20px;
   }
-  .collapse-small{
+
+  .collapse-small {
     width: 100%;
   }
-  .aboutMeImage{
+
+  .aboutMeImage {
     width: 300px;
     height: 300px;
   }
+
   .nav-brand-big {
     font-size: 1.5rem;
   }
+
   .intro-text {
     padding-top: unset;
     padding-bottom: unset;
   }
+
   .intro-text .intro-lead-in {
     font-size: 25px;
   }
+
   .intro-text .intro-heading {
     font-size: 35px;
-    line-height:55px;
+    line-height: 55px;
   }
-  .IntroBtn{
+
+  .IntroBtn {
     font-size: 17px;
   }
 }
 
-@media (max-width: 391px){
-  .card{
+@media (max-width: 391px) {
+  .card {
     height: 510px;
   }
-  .project-image{
+
+  .project-image {
     width: 250px;
     height: 250px;
   }
-  .container.contact__container{
+
+  .container.contact__container {
     width: 70%;
   }
-  #skills{
+
+  #skills {
     font-size: small;
     font-weight: normal;
   }
 }
 
-@media (max-width: 320px){
-.container.contact__container{
-  width: 90%;
-}
-  .skillsImageSize{
+@media (max-width: 320px) {
+  .container.contact__container {
+    width: 90%;
+  }
+
+  .skillsImageSize {
     width: 55px;
   }
+
   .bootstrapImageSize {
     width: 70px;
   }
-  .card{
+
+  .card {
     height: 510px;
   }
-  .project-image{
+
+  .project-image {
     width: 180px;
     height: 180px;
   }
 }
 
 @media only screen and (min-width: 831px) and (max-width: 900px) {
-  #basic-navbar-nav{
+  #basic-navbar-nav {
     font-size: 1rem;
   }
 }
 
 @media only screen and (max-width: 830px) {
-  #basic-navbar-nav{
+  #basic-navbar-nav {
     font-size: 0.9rem;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .formInput{
+  .formInput {
     width: 170px;
   }
-  .success-message{
+
+  .success-message {
     width: 150px;
   }
 }
