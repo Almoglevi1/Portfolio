@@ -585,13 +585,19 @@ textarea {
 
 @media only screen and (min-width: 426px) and (max-width: 767px) {
   .skillsTitle {
-    padding-right: 40px;
+    padding-left: 60px;
   }
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (min-width: 391px) and (max-width: 426px) {
   .skillsTitle {
-    padding-right: 50px;
+    padding-left: 55px;
+  }
+}
+
+@media only screen and (max-width: 391px) {
+  .skillsTitle {
+    padding-right: 70px;
   }
 }
 
