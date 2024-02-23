@@ -18,7 +18,7 @@ const cardItems = [
         id: 1,
         headline: 'Nike-Shoes Ecommerce',
         photo: ecommerceImg,
-        description: "A Nike shoes E-commerce store built with Next.js, React.js and Tailwind CSS. Features include product listing, shopping cart functionality and order processing with Stripe.",
+        description: "A Nike shoes E-commerce store built with Next.js, React.js and Tailwind CSS. The application utilizes a RESTful API for efficient server interaction. Features include product listing, shopping cart functionality and order processing with Stripe.",
         url: 'https://nike-shoes-ecommerce1.vercel.app/'
     },
     {
