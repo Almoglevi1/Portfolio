@@ -17,6 +17,9 @@ import bootstrapIcon from '../images/bootstrapIcon.png';
 import jqueryIcon from '../images/jqueryIcon.png';
 import TailwindCSSIcon from '../images/TailwindCSSIcon.png';
 import nextJsIcon from '../images/nextJsIcon.png';
+import cSharpIcon from '../images/cSharpIcon.png';
+
+
 
 const Skills = () => {
 
@@ -30,6 +33,7 @@ const Skills = () => {
           <tbody>
 
             {/*first row*/}
+
             <tr>
               <td className="text-center">
                 <Image src={javaIcon} alt="Java" className="skillsImageSize" />
@@ -46,23 +50,28 @@ const Skills = () => {
             </tr>
 
             {/*second row*/}
+
             <tr>
               <td className="text-center">
                 <Image src={cIcon} alt="C" className="skillsImageSize" />
                 <p>C</p>
               </td>
               <td className="text-center">
-                <Image src={htmlIcon} alt="HTML" className="skillsImageSize" />
-                <p>HTML</p>
+                <Image src={cSharpIcon} alt="cSharpIcon" className="skillsImageSize" />
+                <p>C#</p>
               </td>
               <td className="text-center">
-                <Image src={cssIcon} alt="CSS" className="skillsImageSize" />
-                <p>CSS</p>
+                <Image src={htmlIcon} alt="HTML" className="skillsImageSize" />
+                <p>HTML</p>
               </td>
             </tr>
 
             {/*third row*/}
             <tr>
+              <td className="text-center">
+                <Image src={cssIcon} alt="CSS" className="skillsImageSize" />
+                <p>CSS</p>
+              </td>
               <td className="text-center">
                 <Image src={jsIcon} alt="JavaScript" className="skillsImageSize" />
                 <p>JavaScript</p>
@@ -71,14 +80,15 @@ const Skills = () => {
                 <Image src={jqueryIcon} alt="jQuery" className="skillsImageSize" />
                 <p>jQuery</p>
               </td>
+            </tr>
+
+            {/*fourth row*/}
+
+            <tr>
               <td className="text-center">
                 <Image src={bootstrapIcon} alt="Bootstrap" className="bootstrapImageSize" />
                 <p>Bootstrap</p>
               </td>
-            </tr>
-
-            {/*fourth row*/}
-            <tr>
               <td className="text-center">
                 <Image src={TailwindCSSIcon} alt="TailwindCSS" className="skillsImageSize" />
                 <p>Tailwind CSS</p>
@@ -87,14 +97,15 @@ const Skills = () => {
                 <Image src={reactIcon} alt="ReactJs" className="skillsImageSize" />
                 <p>React.js</p>
               </td>
+            </tr>
+
+            {/*fifth row*/}
+
+            <tr>
               <td className="text-center">
                 <Image src={nextJsIcon} alt="NextJs" className="skillsImageSize" />
                 <p>Next.js</p>
               </td>
-            </tr>
-
-            {/*fifth row*/}
-            <tr>
               <td className="text-center">
                 <Image src={nodeJSIcon} alt="NodeJs" className="skillsImageSize" />
                 <p>Node.js</p>
@@ -103,15 +114,15 @@ const Skills = () => {
                 <Image src={mongoDBIcon} alt="MongoDB" className="skillsImageSize" />
                 <p>MongoDB</p>
               </td>
+            </tr>
+
+            {/*sixth row*/}
+
+            <tr>
               <td className="text-center">
                 <Image src={mySQLIcon} alt="MySQL" className="skillsImageSize" />
                 <p>MySQL</p>
               </td>
-            </tr>
-
-            {/*sixth row*/}
-            <tr>
-
               <td className="text-center">
                 <Image src={gitIcon} alt="Git" className="skillsImageSize" />
                 <p>Git</p>
