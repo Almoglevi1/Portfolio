@@ -36,10 +36,10 @@ const cardItems = [
   },
   {
     id: 3,
-    headline: "ClientTicketManager",
+    headline: "Client Ticket Manager",
     photo: ClientTicketManagerImage,
     description:
-      "ClientTicketManager is a TypeScript-based Node.js application for managing clients and their tickets. It integrates with the Glassix API for ticket operations and uses MongoDB for data storage.",
+      "A TypeScript-based Node.js application for managing clients and their associated tickets. It integrates with the Glassix system, a customer communication platform that allows businesses to manage interactions with their customers. The application uses the Glassix API for ticket operations and MongoDB for data storage.",
     url: "https://github.com/Almoglevi1/ClientTicketManager",
   },
   {
