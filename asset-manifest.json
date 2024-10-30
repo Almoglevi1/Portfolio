@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a876e179.css",
-    "main.js": "/Portfolio/static/js/main.84981871.js",
+    "main.css": "/Portfolio/static/css/main.aadb3939.css",
+    "main.js": "/Portfolio/static/js/main.9a0788e5.js",
     "static/media/PopularMoviePredictionImage.png": "/Portfolio/static/media/PopularMoviePredictionImage.cc5db64830c559c3f6fa.png",
     "static/media/ReactWeatherAppImage.png": "/Portfolio/static/media/ReactWeatherAppImage.c16215d7ec1643f23da3.png",
     "static/media/articlesAPI.png": "/Portfolio/static/media/articlesAPI.001f0937ec97ce8c2128.png",
@@ -9,6 +9,7 @@
     "static/media/quizzyImage.png": "/Portfolio/static/media/quizzyImage.859364de3319931421dc.png",
     "static/media/openingPic.jpg": "/Portfolio/static/media/openingPic.882e149f62ed001aaa2f.jpg",
     "static/media/ecommerceImg.png": "/Portfolio/static/media/ecommerceImg.f526d1289d6bc27df1ff.png",
+    "static/media/ClientTicketManagerImage.png": "/Portfolio/static/media/ClientTicketManagerImage.5df437175ab876fbb97e.png",
     "static/media/PaintImage.png": "/Portfolio/static/media/PaintImage.668594558fc167c29f85.png",
     "static/media/IotSmartLockImage.png": "/Portfolio/static/media/IotSmartLockImage.763567051e76f6bb3335.png",
     "static/media/keeperAppImage.png": "/Portfolio/static/media/keeperAppImage.fe4e608ec69cd08726b9.png",
@@ -21,11 +22,11 @@
     "static/media/bootstrapIcon.png": "/Portfolio/static/media/bootstrapIcon.ff4ba441ec3324145fde.png",
     "static/media/simonGameImage.png": "/Portfolio/static/media/simonGameImage.7d82ffae3d40aadc68f5.png",
     "index.html": "/Portfolio/index.html",
-    "main.a876e179.css.map": "/Portfolio/static/css/main.a876e179.css.map",
-    "main.84981871.js.map": "/Portfolio/static/js/main.84981871.js.map"
+    "main.aadb3939.css.map": "/Portfolio/static/css/main.aadb3939.css.map",
+    "main.9a0788e5.js.map": "/Portfolio/static/js/main.9a0788e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a876e179.css",
-    "static/js/main.84981871.js"
+    "static/css/main.aadb3939.css",
+    "static/js/main.9a0788e5.js"
   ]
 }
