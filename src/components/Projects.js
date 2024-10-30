@@ -14,6 +14,8 @@ import ecommerceImg from "../images/ecommerceImg.png";
 import ecommerceAdminImg from "../images/ecommerceAdminImg.png";
 import weatherImage from "../images/weatherImage.png";
 import articlesAPI from "../images/articlesAPI.png";
+import ClientTicketManagerImage from "../images/ClientTicketManagerImage.png";
+
 
 const cardItems = [
   {
@@ -34,6 +36,14 @@ const cardItems = [
   },
   {
     id: 3,
+    headline: "ClientTicketManager",
+    photo: ClientTicketManagerImage,
+    description:
+      "ClientTicketManager is a TypeScript-based Node.js application for managing clients and their tickets. It integrates with the Glassix API for ticket operations and uses MongoDB for data storage.",
+    url: "https://github.com/Almoglevi1/ClientTicketManager",
+  },
+  {
+    id: 4,
     headline: "Weather-App",
     photo: weatherImage,
     description:
@@ -41,7 +51,7 @@ const cardItems = [
     url: "https://github.com/Almoglevi1/Weather-App",
   },
   {
-    id: 4,
+    id: 5,
     headline: "Articles-API",
     photo: articlesAPI,
     description:
@@ -49,7 +59,7 @@ const cardItems = [
     url: "https://github.com/Almoglevi1/Articles-API",
   },
   {
-    id: 5,
+    id: 6,
     headline: "Cost Manager React web application",
     photo: CostManagerImage,
     description:
@@ -57,7 +67,7 @@ const cardItems = [
     url: "https://almoglevi1.github.io/Cost-Manager-App/",
   },
   {
-    id: 6,
+    id: 7,
     headline: "React-WeatherApp",
     photo: ReactWeatherAppImage,
     description:
@@ -65,7 +75,7 @@ const cardItems = [
     url: "https://almoglevi1.github.io/Weather-App/",
   },
   {
-    id: 7,
+    id: 8,
     headline: "Quizzy",
     photo: quizzyImage,
     description:
@@ -73,21 +83,21 @@ const cardItems = [
     url: "https://github.com/Almoglevi1/Quizzy",
   },
   {
-    id: 8,
+    id: 9,
     headline: "Popular Movies Prediction",
     photo: PopularMoviePredictionImage,
     description: "Data science - machine learning project in python.",
     url: "https://github.com/Almoglevi1/Popular-Movies-Prediction",
   },
   {
-    id: 9,
+    id: 10,
     headline: "Paint",
     photo: PaintImage,
     description: "Paint application was developed using C++ and MFC framework.",
     url: "https://github.com/Almoglevi1/Paint",
   },
   {
-    id: 10,
+    id: 11,
     headline: "Keeper App",
     photo: keeperAppImage,
     description:
@@ -95,14 +105,14 @@ const cardItems = [
     url: "https://almoglevi1.github.io/Keeper-App/",
   },
   {
-    id: 11,
+    id: 12,
     headline: "Simon Game",
     photo: simonGameImage,
     description: "This game was developed using HTML, CSS and JavaScript.",
     url: "https://almoglevi1.github.io/Simon-Game/",
   },
   {
-    id: 12,
+    id: 13,
     headline: "IOT Smart-Lock",
     photo: IotSmartLockImage,
     description: "IOT Smart Lock application developed using python.",
@@ -176,7 +186,7 @@ const Projects = () => {
             <Row>
               <Col lg={1} md={1}></Col>
               <Col
-                className="projectDetails"
+                className="projectDetails custom-margin"
                 lg={3}
                 md={3}
                 xs={{ span: "auto", order: 1 }}

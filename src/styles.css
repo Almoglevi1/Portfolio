@@ -416,7 +416,8 @@ textarea {
   font-weight: bold;
   font-size: 2rem;
   padding: 1rem;
-  padding-left: 70px;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .sendBtn {
@@ -475,6 +476,11 @@ textarea {
   margin: 40px auto;
   align-items: center;
   position: relative;
+}
+
+.custom-margin {
+  margin-right: 20px;
+  /* Adjust the value as needed */
 }
 
 /*Media*/
@@ -573,13 +579,13 @@ textarea {
 
 @media only screen and (min-width: 1023px) {
   .skillsTitle {
-    padding-right: 10px;
+    padding-right: 80px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .skillsTitle {
-    padding-right: 20px;
+    padding-right: 50px;
   }
 }
 
@@ -606,6 +612,10 @@ textarea {
     width: 300px;
     height: 300px;
     padding-bottom: 50px;
+  }
+
+  .skillsTitle {
+    padding-right: 60px;
   }
 
   .carousel-control-next,
@@ -677,6 +687,10 @@ textarea {
 @media (max-width: 391px) {
   .card {
     height: 510px;
+  }
+
+  .skillsTitle {
+    padding-right: 0px;
   }
 
   .project-image {
